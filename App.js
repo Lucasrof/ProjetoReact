@@ -1,52 +1,29 @@
-import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, 
-          Text, 
-          View, 
-          Button, 
-          Alert,
-          TouchableHighlight
-        } from 'react-native';
-import Touch from './componentes/Touch'
+import { StyleSheet, View} from 'react-native';
+import { NavigationContainer } from '@react-navigation/native';
+import { createStackNavigator } from '@react-navigation/stack';
+import Home from './componentes/inicio';
+import Login from './componentes/login';
 
-          
-const msg=()=>{
-  Alert.alert('MSG','Cassino React')
-}
 
-export default function App() {
-  return (
-    <View style={styles.container}>     
-      <StatusBar style="auto"/>
-        <Text style={styles.cardTitles}> Vamos Começar!</Text>
-        <Text style={styles.cardSubTitle}>Crescendo Juntos!</Text>
-        <Touch/>
+
+
+const navTelas =  createStackNavigator()
+
+export default function App(){
+  return(
+    <View style={styles.container}>
+    <NavigationContainer>
+    <navTelas.Navigator initialRouteName="Home" screenOptions={{headerStyle: { height: 0}}}>
+      <navTelas.Screen Home name = 'Home' component={Home}   options={{title:''}}/>
+      <navTelas.Screen Home name = 'Login' component={Login} options={{title:''}}/>
+    </navTelas.Navigator>
+    </NavigationContainer>
     </View>
-  );
+)}
 
-}
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#FFF',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  title: {
-    color: '#F25719'
-  },
-  cardTitles:{
-    color: '#F25719',
-    fontSize: 44,
-    fontWeight: 'bold',
-    marginTop: 500,
-    
-  },
-  cardSubTitle:{
-    color: '#F25719',
-    fontSize: 14,
-    fontWeight: 'bold',
-    marginRight: 190,
+const styles=StyleSheet.create({
+  container:{
+    flex: 1
   }
-});
+})
