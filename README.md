@@ -37,9 +37,9 @@ Crie um arquivo na pasta inicial com nome host.json
 }
 ```
 Banco de dados utilizado no projeto foi o Mysql, siga os passos abaixo.
-```
+
 <a href="https://github.com/Lucasrof/ProjetoReact/blob/a7c60cd13595193aa46b80df1560c8afdadb4e52/Structure%20Cassino.sql">SQL Structure.sql</a>
-```
+
 ```javascript
 npx expo start
 ```
