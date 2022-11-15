@@ -36,8 +36,8 @@ Crie um arquivo na pasta inicial com nome host.json
   "password": "senha do banco de dados"
 }
 ```
-Banco de dados utilizado no projeto foi o Mysql, siga os passos abaixo.
- Arquivo contendo a estrutura utilizada no BD >> SQL Structure Cassino.sql
+Banco de dados utilizado no projeto foi o Mysql, siga os passos abaixo;
+SQL Structure Cassino.sql
 ```
 npx expo start
 ```
