@@ -17,7 +17,6 @@ Comandos a serem executados no terminal:
 npm install -g nodemon
 npm install expo-cli -g
 ```
-Para o pleno funcionamento da Roleta siga os passos abaixo:
 Identifique a linha localizada no diretório - '\node_modules\react-native-casino-roulette'
 ```javascript
 let animation = Animated.timing(this.state._animatedValue, { toValue: nextItem, easing, duration })
