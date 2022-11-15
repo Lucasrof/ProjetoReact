@@ -19,15 +19,15 @@ npm install expo-cli -g
 ```
 Para o pleno funcionamento da Roleta siga os passos abaixo:
 Identifique a linha localizada no diretório - '\node_modules\react-native-casino-roulette'
-```
+```javascript
 let animation = Animated.timing(this.state._animatedValue, { toValue: nextItem, easing, duration })
 ```
 Substitua por:
-```
+```javascript
 let animation = Animated.timing(this.state._animatedValue, { toValue: nextItem, easing, duration,useNativeDriver:true })
 ```
 Crie um arquivo na pasta inicial com nome host.json
-```
+```javascript
 {
   "host": "ip onde esta seu banco de dados",
   "porta": número da porta,
@@ -36,13 +36,15 @@ Crie um arquivo na pasta inicial com nome host.json
   "password": "senha do banco de dados"
 }
 ```
-Banco de dados utilizado no projeto foi o Mysql, siga os passos abaixo;
-Structure Cassino.sql
+Banco de dados utilizado no projeto foi o Mysql, siga os passos abaixo.
 ```
+[Structure Cassino.sql](https://github.com/Lucasrof/ProjetoReact/blob/a7c60cd13595193aa46b80df1560c8afdadb4e52/Structure%20Cassino.sql)
+```
+```javascript
 npx expo start
 ```
 Abra um novo terminal e execute:
-```
+```javascript
 npx nodemon controller.js
 ```
 Utilize o emulador do expo ou seu celular via QrCode ou Ip fornecido no terminal para acessar o aplicativo. 
