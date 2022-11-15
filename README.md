@@ -64,7 +64,7 @@ Utilize o emulador do expo ou seu celular via QrCode ou Ip fornecido no terminal
 - ✔️ Configuração de ambiente de trabalho para desenvolvimento em ReactNative utilizando Expo-Cli.
 - ✔️ Estruturação básica para desenvolvimento do código.
 - ✔️ Desenvolvimento básico para dispositivos móveis em Android.
-- ✔️ Utilização do emulado com AndroidStudio.
+- ✔️ Utilização do emulador com AndroidStudio.
 - ✔️ Integrações back-end com NodeJs.
 ## 🎁 Expressões de gratidão
 ### Agradecimento a todos os componentes do grupo pelo seu tempo dedicado aos estudos e esforços em "concluir" o aplicativo da melhor forma ao qual conseguimos. O código seguirá em aberto e alguns membros da equipe tem em mente a continuação do aplicativo a título de aprendizagem, afinal, sempre haverá melhorias a serem implementadas.
