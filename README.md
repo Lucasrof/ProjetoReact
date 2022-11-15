@@ -37,7 +37,7 @@ Crie um arquivo na pasta inicial com nome host.json
 }
 ```
 Banco de dados utilizado no projeto foi o Mysql, siga os passos abaixo;
-SQL Structure Cassino.sql
+Structure Cassino.sql
 ```
 npx expo start
 ```
