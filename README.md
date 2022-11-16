@@ -17,7 +17,7 @@ Comandos a serem executados no terminal:
 npm install -g nodemon
 npm install expo-cli -g
 ```
-Identifique a linha localizada no diretório - '\node_modules\react-native-casino-roulette'
+Identifique a linha localizada no diretório  Roulette.js - '\node_modules\react-native-casino-roulette'
 ```javascript
 let animation = Animated.timing(this.state._animatedValue, { toValue: nextItem, easing, duration })
 ```
